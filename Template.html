@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Righteous&display=swap" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <div class="nav-bar">
+        <div class="">
+          <h1 class="center">MONICA DE MESA Style Guide</h1>
+        </div>
+        <div class="">
+          <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
+          <a class="button-nav" href="text_elements">Text Elements</a>
+          <a class="button-nav" href="combined_elements">Combined Elements</a>
+        </div>
+      </div>
+
+    </header>
+
+    <section>
+      <h2 class="header2">Fonts</h2>
+      <h1 class="header1">Righteous</h1>
+      <p>Righteous is the font used for the main headers, header1 and header2. </p>
+      <h1 class="header3">PT Sans</h1>
+      <p>PT Sans is the font used for all the body text and buttons.</p>
+    </section>
+
+    <section>
+      <h2 class="header2">Branding Colours</h2>
+        <img class="image" src="images/colours.png" alt="Brand Colours">
+        <p>warm tones “can spark a variety of emotions ranging from comfort and warmth to hostility and anger” (http://www.arttherapyblog.com/online/color-psychology-psychologica-effects-of-colors/)
+          As my creative intentions are to connect with others on an emotional level, I wanted to incorporate a warm colour in contrast with black and white tones. As I strive to convey relatable and thought provoking emotions in my work, adding a warm yellow colour was important for my branding.
+</p>
+    </section>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2 class="header2">Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2 class="header2">In-text link</h2>
+        <h4>CSS selector:</h4>
+        <p>.in-text-link</p>
+
+        <code>&lt;a class="in-text-link" href="#"&gt;link text&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="in-text-link" href="#">link text</a>
+      </section>
+
+      <section>
+        <h2 class="header2">Submit/Reset Buttons</h2>
+        <!-- Submit Button -->
+        <h4>CSS selector:</h4>
+        <p>.button-submit</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class="button-submit" href="#"&gt;Submit Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-submit" href="#">Submit Button</a>
+
+        <!-- Reset Button -->
+        <h4>CSS selector:</h4>
+        <p>.button-reset</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a class="button-submit" href="#"&gt;Secondary Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button-submit" href="#">Secondary Button</a>
+
+      </section>
+
+      <section>
+        <h2 class="header2">Text Input Field</h2>
+        h4>CSS selector:</h4>
+        <p>.input-label</p>
+        <p>.input-field</p>
+
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;label class=&quot;input-label&quot; for=&quot;name&quot;&gt;Name&lt;/label&gt;&lt;br&gt;<br />
+    &lt;input class=&quot;input-field&quot; id=&quot;name&quot; name=&quot;name&quot; type=&quot;text&quot;&gt;&lt;br&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <label class="input-label" for="name">Name</label><br>
+        <input class="input-field" id="name" name="name" type="text"><br>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+
+      <section>
+        <h2 class="header2">Headings</h2>
+        <!-- Header 1 -->
+        <h4>CSS selector:</h4>
+        <p>.header1</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h1 class="header1"&gt;Header 1&lt;/h1&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h1 class="header1">Header 1</h1>
+
+        <!-- Header 2 -->
+        <h4>CSS selector:</h4>
+        <p>.header2</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h2 class="header2"&gt;Header 2&lt;/h2&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h2 class="header2">Header 2</h2>
+
+        <!-- Header 3 -->
+        <h4>CSS selector:</h4>
+        <p>.header3</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h3 class="header3"&gt;Header 3&lt;/h3&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h3 class="header3">Header 3</h3>
+
+        <!-- Header 4 -->
+        <h4>CSS selector:</h4>
+        <p>.header4</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;h4 class="header4"&gt;Header 4&lt;/h4&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <h4 class="header4">Header 4</h4>
+      </section>
+
+      <section>
+        <h2 class="header2">Paragraphs</h2>
+        <h4>Sample code:</h4>
+        <code>&lt;p class="paragraph"&gt;Paragraph&lt;/p&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <p class="paragraph">Drinkin is a one stop shop for trying major international drinks for the first time or for coming back for your favourites. Our company strives to bring our customers enjoyment with familiar refreshing drinks that will take you back to memories you have made with these drinks in your hands. We have a wide range of drinks including the popular Milkis drink from South Korea. We hope to satisfy our customers with not only a refreshing beverage but a taste of different cultures around the world.</p>
+      </section>
+
+      <section>
+        <h2 class="header2">Bulleted Lists</h2>
+        <h4>Sample code:</h4>
+        <code>
+          &lt;ul&gt;<br />
+          &lt;li&gt;project 1&lt;/li&gt;<br />
+          &lt;li&gt;project 2&lt;/li&gt;<br />
+          &lt;li&gt;project 3&lt;/li&gt;<br />
+        &lt;/ul&gt;
+      </code>
+        <h4>Rendered element:</h4>
+        <ul>
+          <li>project 1</li>
+          <li>project 2</li>
+          <li>project 3</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 class="header2">Numbered Lists</h2>
+        <h4>Sample code:</h4>
+        <code>
+        &lt;ol class="numbered-list"&gt;<br>
+          &lt;li&gt;Project 1&lt;/li&gt;<br>
+          &lt;li&gt;Project 2&lt;/li&gt;<br>
+          &lt;li&gt;Project 3&lt;/li&gt;<br>
+        &lt;/ol&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+        <ol class="numbered-list">
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+
+      <section>
+        <h2 class="header2">Main Navigation</h2>
+        <div class="nav-bar">
+            <div class="">
+              <a class="button-nav" href="#">Home</a>
+            </div>
+            <div class="">
+              <a class="button-nav" href="#">Projects</a>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="header2">Project Listing</h2>
+        <div class="project-listing">
+          <div class="project-item">
+            <div class="">
+              <img class="img" src="images/whisper.png" alt="frame from It Doesn't Whisper Anymore">
+            </div>
+
+              <div class="project-text">
+                <h2 class="header2">It Doesn't Whisper Anymore - Short Film</h2>
+                <p class="caption">A short film about a girl who undergoes awareness of her self perception and works towards accepting who she is</p>
+              </div>
+          </div>
+          <div class="project-item">
+            <div class="">
+              <img class="img" src="images/together.png" alt="frame from Together">
+            </div>
+            <div class="project-text">
+              <h2 class="header2">Together - Documentary</h2>
+              <p class="caption">A documentary sharing local Vancouver Artist's take on the Stop Asian Hate movement.</p>
+            </div>
+
+          </div>
+        </div>
+
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+
+  </body>
+</html>
